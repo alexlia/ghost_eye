@@ -53,16 +53,13 @@ You have to install Nmap and EtherApe too:
   
 * On Arch Linux and its distros: 
 ```bash
-sudo pacman -S etherape nmap dnsutils gnome-terminal httpie mtr
+sudo pacman -S etherape nmap dnsutils konsole httpie mtr
 ```
   
 * On Debian and its distros (Kali Linux, Parrot Security OS): 
 ```bash
-sudo apt install etherape nmap dnsutils gnome-terminal httpie mtr
+sudo apt install etherape nmap dnsutils konsole httpie mtr
 ```
-After installing Etherape sometimes a GNOME error can occur, for which you install: (This will solve the common error)
-```bash
-apt install libgnomeui-0:amd64
 ```
 ****
     
