@@ -33,8 +33,8 @@
 # install httpie
 # install mtr
 
-# sudo apt install dnsutils gnome-terminal httpie mtr
-# sudo pacman -S dnsutils gnome-terminal httpie mtr
+# sudo apt install dnsutils konsole httpie mtr
+# sudo pacman -S dnsutils konsole httpie mtr
 
 ########################################################################
 
@@ -140,7 +140,7 @@ def fun():
         elif choice == ("1"):
             try:
                 os.system("reset")
-                os.system("gnome-terminal -e 'bash -c \"sudo etherape; exec bash\"'")
+                os.system("konsole -e 'bash -c \"sudo etherape; exec bash\"'")
 
             except Exception:
                 pass
